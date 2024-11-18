@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicon_io/site.webmanifest">
+
+</head>
+
+<body class="auth">
+  <nav id="home-header">
+    <h1 class="logo">SmartMeter</h1>
+    <div class="home-link">
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+  <div class="form-container">
+    <div class="form-box">
+      <div class="auth-container">
+        <header>
+          <h1>Sign Up</h1>
+        </header>
+        <form id="signupForm">
+          <div class="links">
+            <a href="https://github.com/EloraPeter"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+          </div>
+          <input type="text" id="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" placeholder="Last Name" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <div class="password-container">
+            <input type="password" id="password" placeholder="Password" required />
+            <a id="togglePassword"><i class="fa-solid fa-eye"></i></a>
+          </div>
+          <p class="forgot-pass"><a href="#" class="pass-link">Forgot Password</a></p>
+          <button type="submit" class="submit">Sign Up</button>
+        </form>
+        <p class="toggler">Already have an account? <a href="login.html">Log In</a></p>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

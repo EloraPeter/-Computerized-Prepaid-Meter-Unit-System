@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="../assets/images/favicon_io/site.webmanifest">
+</head>
+
+<body class="das">
+  <header>
+    <nav id="home-header">
+      <h1 class="logo">SmartMeter</h1>
+      <div class="home-link">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <button id="logout-btn" class="navbtn">Logout</button>
+      </div>
+    </nav>
+  </header>
+  <div class="dashboard-container">
+    <h1>Welcome to Your Dashboard</h1>
+    <div id="balance-container">
+      <h2>Your Balance: <span id="kwh-balance">Loading...</span> kWh</h2>
+      <button onclick="location.href='recharge.html'">Recharge</button>
+    </div>
+    <!-- Transaction History Section -->
+    <div class="transaction-history">
+      <h2>Transaction History</h2>
+      <div class="transaction-details">
+        <p>You don't have any transaction history yet. Make a transaction and it will appear here.</p>
+      </div>
+      <a href="#more-transactions" class="navbtn">View More Transactions</a>
+    </div>
+    <button onclick="location.href='transactions.html'">Transaction History</button>
+  </div>
+  
+  <section id="footer" class="t">
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <div class="contact-info">
+        <p><a href="https://github.com/EloraPeter"><i class="fa-brands fa-github"></i>Github</a></p>
+        <p>Address: 123 Main Street, City, State, ZIP</p>
+        <p>Email: support@smartmetersolutions.com</p>
+        <p>Phone: +234 800 123 4567</p>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">&copy; 2024 SmartMeter | All rights reserved</p>
+    <p class="designer"> Designed by Elora</p>
+  </section>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
